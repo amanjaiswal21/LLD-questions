@@ -1,5 +1,7 @@
 package com.SystemDesign.LLD.questions.RateLimitter;
 
+import com.SystemDesign.LLD.questions.RateLimitter.RateLimiterStrategy.RateLimiterStrategy;
+
 public class RateLimitter {
 
     private final RateLimiterStrategy rateLimiterStrategy;

@@ -1,4 +1,7 @@
-package com.SystemDesign.LLD.questions.RateLimitter;
+package com.SystemDesign.LLD.questions.RateLimitter.RateLimiterStrategy;
+
+import com.SystemDesign.LLD.questions.RateLimitter.TokenBucket;
+import com.SystemDesign.LLD.questions.RateLimitter.TokenBucketConfig;
 
 import java.time.Duration;
 import java.time.Instant;
