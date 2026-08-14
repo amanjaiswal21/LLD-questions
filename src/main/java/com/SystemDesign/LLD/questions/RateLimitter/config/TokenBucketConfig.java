@@ -1,4 +1,4 @@
-package com.SystemDesign.LLD.questions.RateLimitter;
+package com.SystemDesign.LLD.questions.RateLimitter.config;
 
 import java.time.Duration;
 
