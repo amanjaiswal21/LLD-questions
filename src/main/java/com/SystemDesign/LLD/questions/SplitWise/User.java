@@ -1,25 +1,13 @@
 package com.SystemDesign.LLD.questions.SplitWise;
 
-import lombok.Data;
+public class User {
+    public String id;
+    public String name;
+    public String emailId;
 
-import java.util.Map;
-
-@Data
-public class User implements Observer{
-    private final String userId;
-    private final String name;
-    private final String email;
-    private final Map<String, Double> balances;
-
-    public User(String userId, String name, String email, Map<String, Double> balances) {
-        this.userId = userId;
-        this.name = name;
-        this.email = email;
-        this.balances = balances;
-    }
-
-    @Override
-    public void update(String message) {
-        System.out.println("Some user has settle or add the expenses");
+    public User(String id, String name,String emailId){
+        this.id=id;
+        this.emailId=emailId;
+        this.name=name;
     }
 }
