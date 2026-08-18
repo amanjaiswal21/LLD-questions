@@ -9,13 +9,12 @@ public class UserService {
 
     public UserRepository userRepository;
 
-    public UserService(UserRepository userRepository){
-        this.userRepository=userRepository;
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
     }
 
-    public User crateUser(String name, String email){
-        String id= new Random().toString();
-      User user=new User(id,name,email);
-      userRepository.
+    public User crateUser(String name, String email) {
+        String id = new Random().toString();
+        return new User(id, name, email);
     }
 }
